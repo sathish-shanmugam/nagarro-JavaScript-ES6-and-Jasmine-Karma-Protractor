@@ -11,7 +11,7 @@ Open terminlal window in VS code
 * webdriver-manager start
 
 Once selenium server started, open another terminal window
-* ng serve - To run application on port 'http://localhost:4200/'
-* ng test - Perform unit test by Jsamin / Karma
-* ng e2e - perforom integartion(e2e) test by using Protractor
+* ng serve - run angular application on port 'http://localhost:4200/'
+* ng test - perform unit test by jasmine / karma
+* ng e2e - perforom integration(e2e) test by using protractor
 
