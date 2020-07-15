@@ -1,9 +1,9 @@
 ## Steps of running this project
 from the command prompt clone the project
-* $git clone https://github.com/sathish-shanmugam/nagarro-JavaScript-ES6-and-Jasmine-Karma-Protractor.git
-* $cd ng5-jasmin-karma-test
+* git clone https://github.com/sathish-shanmugam/nagarro-JavaScript-ES6-and-Jasmine-Karma-Protractor.git
+* cd ng5-jasmin-karma-test
 
-Open terminlal in VS code
+Open terminlal window in VS code
 * npm install
 * npm install webdriver-manager -g
 * webdriver-manager update
