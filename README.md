@@ -1,6 +1,6 @@
 ## Steps of running this project
 from the command prompt clone the project
-* $git clone https://github.com/techsithgit/ng5-jasmin-karma-test.git
+* $git clone https://github.com/sathish-shanmugam/nagarro-JavaScript-ES6-and-Jasmine-Karma-Protractor.git
 * $cd ng5-jasmin-karma-test
 
 Open terminlal in VS code
