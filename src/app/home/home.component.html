@@ -1,0 +1,25 @@
+<h4 class="text-center">
+  home
+</h4>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4 d-flex justify-content-center">
+      <form id="loginForm" [formGroup]="loginForm" (ngSubmit)="onLogin()" novalidate class="mb-5">
+        <div class="input-group form-group input-group-lg" id="username-container">
+          <input class="form-control" type="text" formControlName="username" aria-describedby="sizing-addon1">
+        </div>
+
+        <div class="input-group form-group input-group-lg" id="password-container">
+          <input type="password" class="form-control" formControlName="password" aria-describedby="sizing-addon1">
+        </div>
+
+        <div class="input-group input-group-lg" id="login-btn-container">
+          <button [disabled]="!loginForm.valid" id="buttonLogin" type="submit" class="form-control">Login</button>
+        </div>
+      </form>
+
+
+    </div>
+  </div>
+</div>
